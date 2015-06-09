@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_button_back">#F08C35</color>
+    <color name="main_layout_back">#c9e9ff</color>
+    <color name="main_capstone_back_color">#d60e43</color>
+    <color name="main_capstone_text_color">#fff</color>
+    <color name="main_title_text_color">#0477c7</color>
+
+</resources>

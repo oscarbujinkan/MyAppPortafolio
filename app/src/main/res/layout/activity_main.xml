@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_layout_back"
+    tools:context=".MainActivity">
+
+    <TextView android:text="@string/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/main_title_text_color"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="220dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/main_button_spotify"
+        android:background="@color/main_button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/main_spotify"/>
+        <Button
+            android:id="@+id/main_button_scores"
+            android:background="@color/main_button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/main_scores"/>
+        <Button
+            android:id="@+id/main_button_library"
+            android:background="@color/main_button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/main_library"/>
+        <Button
+            android:id="@+id/main_button_bigger"
+            android:background="@color/main_button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/main_bigger"/>
+        <Button
+            android:id="@+id/main_button_reader"
+            android:background="@color/main_button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/main_reader"/>
+        <Button
+            android:id="@+id/main_button_capstone"
+            android:background="@color/main_capstone_back_color"
+            android:textColor="@color/main_capstone_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/main_capstone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
